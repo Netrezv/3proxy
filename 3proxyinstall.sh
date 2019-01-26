@@ -1,6 +1,4 @@
 version=0.8.12
-apt-get update && apt-get -y upgrade
-apt-get install gcc make git -y
 wget --no-check-certificate -O 3proxy-${version}.tar.gz https://github.com/z3APA3A/3proxy/archive/0.8.12.tar.gz
 tar xzf 3proxy-${version}.tar.gz
 cd 3proxy-${version}
